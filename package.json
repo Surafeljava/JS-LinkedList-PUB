@@ -1,0 +1,16 @@
+{
+  "name": "js-merge-sorted-linkedlists",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha tests/index.js"
+  },
+  "author": "",
+  "module": "true",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.0.0"
+  }
+}
