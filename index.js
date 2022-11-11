@@ -41,17 +41,8 @@ module.exports = function mergeLinkedLists(l1, l2) {
         }
     }
 
-    while(l1){
-        tempHead.next = new ListNode(l1.value);
-        tempHead = tempHead.next;
-        l1 = l1.next;
-    }
-
-    while(l2){
-        tempHead.next = new ListNode(l2.value);
-        tempHead = tempHead.next;
-        l2 = l2.next;
-    }
+    if(l1) tempHead.next = l1;
+    if(l2) tempHead.next = l2;
 
     return head;
 }
